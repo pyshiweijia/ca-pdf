@@ -8,7 +8,7 @@
 
 > ⚠️ **注意**: 本项目使用自签名时间戳进行测试。生产环境请集成商业 TSA 服务（DigiCert、GlobalSign 等）。
 
-[English](README.md) | 简体中文
+简体中文 | [English](README.md)
 
 ## 🌟 核心特性
 
@@ -89,8 +89,8 @@ PdfSigner.signPdf(/* ... */);
 
 ```xml
 <dependency>
-    <groupId>io.github.yourusername</groupId>
-    <artifactId>pdf-signature-toolkit</artifactId>
+    <groupId>io.github.pyshiweijia</groupId>
+    <artifactId>ca-pdf</artifactId>
     <version>1.0.0</version>
 </dependency>
 ```
@@ -98,14 +98,14 @@ PdfSigner.signPdf(/* ... */);
 ### Gradle
 
 ```gradle
-implementation 'io.github.yourusername:pdf-signature-toolkit:1.0.0'
+implementation 'io.github.pyshiweijia:ca-pdf:1.0.0'
 ```
 
 ### 从源码构建
 
 ```bash
-git clone https://github.com/yourusername/pdf-signature-toolkit.git
-cd pdf-signature-toolkit
+git clone https://github.com/pyshiweijia/ca-pdf.git
+cd ca-pdf
 mvn clean install
 ```
 
@@ -505,17 +505,16 @@ private static TimeStampToken requestCommercialTSA(
 4. 推送到分支 (`git push origin feature/amazing-feature`)
 5. 开启 Pull Request
 
-详细信息请参阅 [CONTRIBUTING.md](CONTRIBUTING.md)
+### 开发指南
+
+- 遵循 Java 代码规范
+- 为新功能添加单元测试
+- 更新相关文档
+- 提交 PR 前确保所有测试通过
 
 ## 📄 许可证
 
 本项目采用 Apache License 2.0 许可证 - 详见 [LICENSE](LICENSE) 文件。
-
-## 📞 支持
-
-- **文档**: [Wiki](https://github.com/yourusername/pdf-signature-toolkit/wiki)
-- **问题**: [GitHub Issues](https://github.com/yourusername/pdf-signature-toolkit/issues)
-- **讨论**: [GitHub Discussions](https://github.com/yourusername/pdf-signature-toolkit/discussions)
 
 ## 🙏 致谢
 

@@ -8,7 +8,7 @@ A comprehensive Java library for creating and verifying PDF digital signatures w
 
 > ⚠️ **Note**: This project uses self-signed timestamps for testing. For production use, integrate with commercial TSA services (DigiCert, GlobalSign, etc.).
 
-English | [简体中文](README_ZH.md)
+[简体中文](README_ZH.md) | English
 
 ## 🌟 Features
 
@@ -89,8 +89,8 @@ PdfSigner.signPdf(/* ... */);
 
 ```xml
 <dependency>
-    <groupId>io.github.yourusername</groupId>
-    <artifactId>pdf-signature-toolkit</artifactId>
+    <groupId>io.github.pyshiweijia</groupId>
+    <artifactId>ca-pdf</artifactId>
     <version>1.0.0</version>
 </dependency>
 ```
@@ -98,14 +98,14 @@ PdfSigner.signPdf(/* ... */);
 ### Gradle
 
 ```gradle
-implementation 'io.github.yourusername:pdf-signature-toolkit:1.0.0'
+implementation 'io.github.pyshiweijia:ca-pdf:1.0.0'
 ```
 
 ### Build from Source
 
 ```bash
-git clone https://github.com/yourusername/pdf-signature-toolkit.git
-cd pdf-signature-toolkit
+git clone https://github.com/pyshiweijia/ca-pdf.git
+cd ca-pdf
 mvn clean install
 ```
 
@@ -517,28 +517,6 @@ Contributions are welcome! Please follow these guidelines:
 ## 📄 License
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
-
-```
-Copyright 2024 Your Name
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-```
-
-## 📞 Support
-
-- **Documentation**: [Wiki](https://github.com/yourusername/pdf-signature-toolkit/wiki)
-- **Issues**: [GitHub Issues](https://github.com/yourusername/pdf-signature-toolkit/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/pdf-signature-toolkit/discussions)
 
 ## 🙏 Acknowledgments
 
